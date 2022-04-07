@@ -47,10 +47,7 @@ public class ValedosDesesperados25 {
         }
         
         for(int j=0;j <= nProcedimentos-1;j++){
-            System.out.println("O procedimento agendado foi: " + ListaNomeProcedimento.get(j));
-            System.out.println("O Procedimento foi agendada para o dia: " + ListaDataProcedimento.get(j) );
-            //System.out.println(Arrays.toString(ListaNomeProcedimento.toArray()) + " ");
-            //System.out.println(Arrays.toString(ListaDataProcedimento.toArray()) + " ");
+            System.out.println("O procedimento agendado " + ListaNomeProcedimento.get(j) + " foi marcado para o dia: " + ListaDataProcedimento.get(j));
         }
     }
 }
